@@ -1,2 +1,2 @@
-# tribute-page
+# Tribute-page
 my first HTML exercise
