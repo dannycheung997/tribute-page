@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    background: lightgray;
+    text-align: center;
+    margin: 30px 10px;
+    padding: 20px 10px;
+}
+
+#title {
+    display: inline-block;
+    padding: 20px 30px; 
+}
+
+#title h1 {
+    padding-bottom: 15px;
+}
+
+#img-div {
+    background: white;
+    padding: 10px;
+    margin: 0 auto 50px auto;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#img-div figcaption {
+    padding: 5px;
+}
+
+#tribute-info {
+    padding: 20px;
+}
+
+#tribute-info b {
+    text-transform: capitalize;
+}
+
+#tribute-info h2 {
+    font-size: 30px;
+}
+
+#tribute-info ul {
+    padding: 30px 30%;
+}
+
+#tribute-info li {
+    text-align: left;
+    padding: 10px 0;
+}
+
+#quote {
+    padding: 10px 20px;
+}
+
+#quote i ~ i {
+    line-height: 50px;
+}
+
+#footnote b {
+    font-size: 20px;
+    text-transform: none;
+}
+
+
+footer {
+    margin: 10px auto auto auto;
+}

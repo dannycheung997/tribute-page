@@ -1,0 +1,138 @@
+:root {
+    --main-bgcolor: rgb(241, 241, 241);
+    --header-height: 85px;
+    --header-bgcolor: rgb(30, 31, 38);
+    --header-color: rgb(177, 177, 177);
+    --header-lightcolor: rgb(228, 228, 228);
+}
+
+body {
+    background-color: var(--main-bgcolor);
+    margin: 0;
+}
+
+header {
+    background: var(--header-bgcolor);
+    margin: 0;
+    display: flex;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    height: var(--header-height);
+
+    /* 
+    overflow: hidden; */
+}
+
+.header-left {
+    display: flex;
+    margin: 10px 5px;
+    border-radius: 10%;
+    text-decoration: none;
+}
+
+
+.header-left .box {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: var(--header-lightcolor);
+    margin: 10px 5px;
+}
+
+.header-left .tribute {
+    display: inline-block;
+    margin: 5px;
+
+}
+
+.header-left .tribute h2 {
+    font-size: 20px;
+    margin: 2px;
+    text-decoration: none;
+    color: var(--header-lightcolor);
+}
+
+.header-left .tribute p {
+    font-size: 15px;
+    margin: 5px 2px;
+    color: var(--header-color);
+}
+
+/* header right */
+.header-right {
+    display: flex;
+    position: fixed;
+    right: 0;
+    margin: 30px 15px;
+    height: fit-content;
+}
+
+
+.header-right .right {
+    border-style: solid;
+    border-color: rgb(97, 96, 96);
+    border-radius: 5px;
+    height: 40px;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.header-right .heart {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: rgb(177, 177, 177);
+    padding: 13px;
+    background: var(--header-bgcolor);
+}
+
+.header-right .heart:hover {
+    background: rgb(200, 200, 200);
+}
+
+.header-right .change-view {
+    display: flex;
+    background: rgb(68, 72, 87);
+}
+
+.header-right .change-view .eye {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: var(--header-color);
+    padding: 5px 5px;
+  }
+
+.header-right .change-view div {
+    color: var(--header-lightcolor);
+    padding: 11px 5px;
+}
+
+.header-right .change-view:hover {
+    background: rgb(200, 200, 200);
+}
+
+.header-right .theright div {
+    background: rgb(71, 207, 115);
+    color: var(--header-color);
+    padding: 11px 5px;
+}
+
+.header-right .theright div:hover {
+    background: rgb(200, 200, 200);
+}
+
+.header-right .log-in div {
+    background: rgb(68, 72, 87);
+}
+
+.header-right .sign-up div {
+    color: black;
+}
